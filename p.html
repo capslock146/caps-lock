@@ -1,0 +1,206 @@
+
+    <!DOCTYPE html>
+<html lang="rw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ES RUKIRA TSS - Webpage</title>
+    <style>
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+
+        header {
+            background: white;
+            padding: 10px 0;
+        }
+
+        .top-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 5%;
+        }
+
+        .logo-area {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .logo-placeholder {
+            width: 80px;
+            height: 70px;
+            background: #ddd; /* Aha niho ushyira ifoto ya logo */
+            border: 1px solid #000;
+        }
+
+        .school-name {
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .blue-text { color: #2b3990; }
+        .yellow-text { color: #fcc200; }
+        .green-text { color: #00a651; }
+
+        .contact-box {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .apply-btn {
+            background-color: #fcc200;
+            color: black;
+            padding: 12px 25px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+       
+        nav {
+            border-top: 1px solid #eee;
+            padding: 10px 5%;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 25px;
+            align-items: center;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 600;
+            font-size: 13px;
+        }
+
+        .active-link { color: #fcc200; }
+
+       
+        .hero-section {
+            background-color: #004d30;
+            padding: 60px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .gallery {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            max-width: 1100px;
+        }
+
+        .oval-frame {
+            width: 250px;
+            height: 180px;
+            border: 6px solid #48cae4;
+            border-radius: 50%;
+            overflow: hidden;
+            flex-shrink: 0;
+        }
+
+                .center-frame {
+            position: relative;
+            border: 5px solid white;
+            max-width: 500px;
+        }
+
+        .center-frame img, .oval-frame img, .hex-frame img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .motto-bar {
+            background: rgba(255, 255, 255, 0.9);
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 20px;
+            font-weight: bold;
+            color: #004d30;
+            border-top: 2px solid #ccc;
+        }
+        .hex-frame {
+            width: 250px;
+            height: 280px;
+            clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+            border: 5px solid #48cae4;
+            background: #48cae4;
+            padding: 4px;            flex-shrink: 0;
+        }
+        
+        .hex-frame img {
+            clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+        }
+
+        .search-icon { margin-left: auto; cursor: pointer; }
+        .re{
+            position: relative;
+            left: 400px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="top-header">
+            <div class="logo-area">
+                <img src="logo.jpg" alt="Logo" class="logo-placeholder" onerror="this.style.display='none'"> 
+                <div class="school-name">
+                    <span class="blue-text">NGOMA-</span><span class="yellow-text">MURAMA-</span><span class="green-text">ES RUKIRA TSS</span>
+                </div>
+            </div>
+            <div class="contact-box">
+                <div style="font-size: 13px; text-align: right;">
+                    Need a help? call us<br>
+                    <strong>+250788503444</strong>
+                </div>
+                <a href="luna.html" class="apply-btn">Apply Now</a>
+            </div>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="ade.html">HOME</a></li>
+                <li><a href="p.html">ABOUT US</a></li>
+               <li><a href="bby.html">COURSES</a></li>
+                <li><a href="kry.html">EVENTS</a></li>
+                <li><a href="k.html">OUR TEACHERS</a></li>
+                <li><a href="ky.html">SHOP</a></li>
+                <li><a href="wee.html">CONTACT</a></li>
+                <div class="re"> <input type="text" name="last_name" placeholder="reseach.."/></div>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero-section">
+        <div class="gallery">
+            
+Vision<br>
+shop<br>
+tech company<br>
+school<br>
+        </div>
+    </section>
+
+</body>
+</html>
